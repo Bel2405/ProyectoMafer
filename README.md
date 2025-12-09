@@ -6,7 +6,39 @@ EXAMEN MAFER
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perros Callejeros</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"
+        body {
+    margin: 0;
+    background-color: #3f2f23;
+    /* café oscuro para el borde exterior */
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    background-color: #e6d5b8;
+    /* tono arena */
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    /* negro normal para títulos */
+}
+
+p {
+    color: #1c1c1c;
+    /* negro un poquito más claro */
+    line-height: 1.6;
+    text-align: justify;
+}
+>
 </head>
 
 <body>
